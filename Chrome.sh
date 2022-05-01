@@ -68,6 +68,7 @@ xterm -T "RIP-Network Terminal" -geometry 226x52 -e "apt upgrade"
 xterm -T "RIP-Network Terminal" -geometry 226x52 -e "apt install wget"
 xterm -T "RIP-Network Terminal" -geometry 226x52 -e "apt-get install -f"
 xterm -T "RIP-Network Terminal" -geometry 226x52 -e "wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+xterm -T "RIP-Network Terminal" -geometry 226x52 -e "dpkg -i google-chrome-stable_current_amd64.deb"
 fi
 
 sleep 2
